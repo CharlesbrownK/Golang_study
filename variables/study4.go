@@ -1,0 +1,22 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var i int = 42
+	fmt.Printf("%v, %T", i, i)
+
+	var j float32
+	j = float32(i)
+	fmt.Printf("%v, %T", j, j)
+
+	
+	var k float32 = 22
+	fmt.Printf("%v, %T", k, k)
+
+	var l int
+	l = int(k)
+	fmt.Printf("%v, %T", l, l)
+}
